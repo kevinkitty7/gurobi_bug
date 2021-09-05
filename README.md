@@ -4,3 +4,16 @@ Gurobi fails to give optimal, order of constraints affects solution optimality. 
 bug 1. with different order of constraints, gurobi gives solutions of different objective value.
 
 bug 2. with more constraints, we expect worse solution, but gurobi gives better solution.
+
+
+MacBook-Pro:$ python gurobi-bug.py 
+--------
+Academic license - for non-commercial use only
+('obj=', 6.0)
+('obj=', 7.0)
+('obj=', 6.0)
+('obj=', 7.0)
+--------
+('obj=', 7.0)
+('obj=', 6.0)
+--------
