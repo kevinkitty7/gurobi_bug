@@ -97,6 +97,10 @@ def kT_test_0():
 	ilp(force= c, constr_before=False) 	# this give opt=6
 	ilp(force= c, constr_before=True) 	# this give opt=7
 	print('--------')
+	# force now has more constraints, expected worse, but gurobi gives better solution.
+	ilp(force= c + [3, 4, 5, 6, 7, 8], constr_before=False)
+	ilp(force= c, constr_before=False)
+	print('--------')
 
 #------------------------------------------
 if __name__ == "__main__":
