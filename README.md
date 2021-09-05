@@ -20,3 +20,5 @@ Academic license - for non-commercial use only
 --------
 
 ```
+
+check post at: https://support.gurobi.com/hc/en-us/community/posts/360050460991-Order-of-constraints-affects-solution-optimality-Code-returns-suboptimal-solution?page=1#community_comment_4406712549137
